@@ -22,6 +22,7 @@ body {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(99, 14, 43, 0.25);
     transition: all 0.3s ease;
+    opacity: .85;
 }
 
 .nav:hover {
@@ -29,6 +30,7 @@ body {
     -moz-box-shadow: 0 3.5px 8.5px 3.5px #5a1730;
     box-shadow: 0 3.5px 8.5px 3.5px #5a1730;
     transition: all 0.3s ease;
+    opacity: 1;
 }
 
 .logo {
@@ -43,12 +45,14 @@ body {
     height: 100%;
     object-fit: cover;
     display: flex;
-    transition: all 0.5s ease
+    transition: all 0.5s ease;
+    opacity: .8;
 }
 
 .logo__image:hover {
     scale: 1.2;
     transition: all 0.5s ease;
+    opacity: 1;
 }
 
 a.nav-link.active {
@@ -57,4 +61,13 @@ a.nav-link.active {
 
 a.nav-link {
     font-size: 1.5rem;
+}
+
+a.nav-link:hover {
+    opacity: .7;
+    color: #fff;
+}
+
+a.nav-link {
+    color: #fff;
 }
