@@ -1,0 +1,60 @@
+.background-image {
+    background-image: url("images/Ahmad-Bin-Ali-Stadium.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transition: all 0.5s ease;
+}
+
+body {
+    overflow: hidden;
+
+}
+
+.nav {
+    padding: 12px;
+    opacity: 1;
+    -webkit-box-shadow: 0 3.5px 8.5px .5px #5a1730;
+    -moz-box-shadow: 0 3.5px 8.5px .5px #5a1730;
+    box-shadow: 0 3.5px 8.5px .5px #5a1730;
+    background: rgba(99, 14, 43, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(99, 14, 43, 0.25);
+    transition: all 0.3s ease;
+}
+
+.nav:hover {
+    -webkit-box-shadow: 0 3.5px 8.5px 3.5px #5a1730;
+    -moz-box-shadow: 0 3.5px 8.5px 3.5px #5a1730;
+    box-shadow: 0 3.5px 8.5px 3.5px #5a1730;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo__image {
+    width: 50vh;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    transition: all 0.5s ease
+}
+
+.logo__image:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+
+a.nav-link.active {
+    color: #fff;
+}
+
+a.nav-link {
+    font-size: 1.5rem;
+}
