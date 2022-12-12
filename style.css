@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
 .background-image {
     background-image: url("images/Ahmad-Bin-Ali-Stadium.png");
     background-size: cover;
@@ -12,7 +14,7 @@ body {
 }
 
 .nav {
-    padding: 12px;
+    padding: 2vh;
     opacity: 1;
     -webkit-box-shadow: 0 3.5px 8.5px .5px #5a1730;
     -moz-box-shadow: 0 3.5px 8.5px .5px #5a1730;
@@ -57,10 +59,12 @@ body {
 
 a.nav-link.active {
     color: #fff;
+    font-weight: lighter;
+    font-style: oblique;
 }
 
 a.nav-link {
-    font-size: 1.5rem;
+    font-size: 2.5vh;
 }
 
 a.nav-link:hover {
@@ -70,4 +74,31 @@ a.nav-link:hover {
 
 a.nav-link {
     color: #fff;
+}
+
+.div-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    height: 60vh;
+    width: 100vh;
+    border-radius: 15px;
+    padding: 5px;
+    -webkit-box-shadow: 8px 9px 15.5px -3.5px #000000;
+    -moz-box-shadow: 8px 9px 15.5px -3.5px #000000;
+    box-shadow: 8px 9px 15.5px -3.5px #000000;
+}
+
+.div-content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5vh;
+    color: #000;
+    text-align: center;
+    padding: 2vh;
+    -webkit-background-filter: blur(none);
 }
