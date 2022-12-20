@@ -134,3 +134,22 @@ a.nav-link {
     font-size: 4rem;
     font-weight: bold;
 }
+
+.video-container {
+    padding-top: 10vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-container iframe:hover {
+    -webkit-box-shadow: 3px 3px 10px 3px #5a1730;
+    -moz-box-shadow: 3px 3px 10px 3px #5a1730;
+    box-shadow: 3px 3px 10px 3px #5a1730;
+    transition: all 0.3s ease;
+}
+
+.video-container iframe {
+    transition: all 0.7s ease;
+}
